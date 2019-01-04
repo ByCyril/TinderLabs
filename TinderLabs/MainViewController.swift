@@ -17,7 +17,7 @@ class MainViewController: UIViewController {
 
         self.view.backgroundColor = UIColor.orange
         self.scrollViewSetup()
-        self.mainSetup()
+        self.controllerSetup()
     }
 
     private func scrollViewSetup() {
@@ -36,7 +36,7 @@ class MainViewController: UIViewController {
         self.view.addSubview(self.scrollView)
         
     }
-    private func mainSetup() {
+    private func controllerSetup() {
         let width = self.view.frame.width
         let height = self.view.frame.height
         
